@@ -130,10 +130,4 @@ npm run test:coverage
 
 ---
 
-## 📸 Screenshots
-
-*(Add your screenshots of Dashboard, Login, and Album views here)*
-
----
-
 **Developed for Web Programming Assignment 4**
