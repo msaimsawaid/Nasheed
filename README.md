@@ -7,7 +7,6 @@
 A production-ready full-stack web application for managing music albums with robust Authentication, Role-Based Access Control (RBAC), and advanced features like Image Upload, Search/Filtering, and Rate Limiting.
 
 ---
-
 ## 🚀 Features
 
 ### 🔐 Authentication & Security
