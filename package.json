@@ -1,48 +1,15 @@
 {
-<<<<<<< HEAD
-  "dependencies": {
-    "express-rate-limit": "^8.2.1",
-    "mongodb": "^7.0.0"
-=======
-  "name": "music-world-react",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@testing-library/dom": "^10.4.1",
-    "@testing-library/jest-dom": "^6.9.1",
-    "@testing-library/react": "^16.3.0",
-    "@testing-library/user-event": "^13.5.0",
-    "firebase": "^12.6.0",
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0",
-    "react-router": "^7.9.5",
-    "react-router-dom": "^7.9.5",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
-  },
+  "name": "music-world-app",
+  "version": "1.0.0",
+  "description": "Music World App with React Client and Express Server",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "install-all": "npm install && cd client && npm install && cd ../server && npm install",
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm start",
+    "test": "cd server && npm test"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
->>>>>>> 715218b3d55173c9de3a2a16d25389110fed69cf
+  "devDependencies": {
+    "concurrently": "^8.2.2"
   }
 }
